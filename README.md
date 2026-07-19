@@ -33,8 +33,3 @@ The design includes a rigorous, race-condition-free testbench (`FIFO_async_tb.v`
 ## Simulation
 This project was simulated and verified using **Xilinx Vivado (XSim)**. 
 
-To run the simulation locally:
-1. Add all `.v` files to your project as Design Sources.
-2. Add `FIFO_async_tb.v` as the Simulation Source.
-3. Run Behavioral Simulation. 
-4. *Tip:* Pull the internal `g_wrptr` and `g_rdptr` signals into the waveform viewer and change the radix to Unsigned Decimal to observe the Gray code synchronization in real-time.
