@@ -31,5 +31,5 @@ The design includes a rigorous, race-condition-free testbench (`FIFO_async_tb.v`
 * **Strict Timing Compliance:** Utilizes strict Non-Blocking Assignments (`<=`) inside the Active Region/NBA Region to perfectly align with the Verilog Event Scheduler and eliminate simulator race conditions.
 
 ## Simulation
-This project was simulated and verified using **Xilinx Vivado (XSim)**. 
+This project was simulated and verified using **Xilinx Vivado. 
 
